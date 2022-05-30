@@ -1,1 +1,19 @@
 /* write your override styles here */
+#wall{
+    display: flex;
+}
+#wall .tag-1 {
+    display: none;
+    float:left;
+    margin: 30px;
+
+  }
+  #wall .tag-2 {
+      background-color: aqua;
+      display: flex;
+      justify-content: space-between;
+      color: aliceblue;
+  }
+  #wall .tag-3 {
+      font-size: large;
+  }
